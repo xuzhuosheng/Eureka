@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka/
+
+
+server:
+  port: 8001
+
+spring:
+  application:
+    name: service-producer
