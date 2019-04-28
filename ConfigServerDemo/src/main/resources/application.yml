@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xuzhuosheng/spring-cloud-config.git
+          search-paths: config
+          username: 284696920@qq.com
+          password: zhuosheng@#520
+      label: master
