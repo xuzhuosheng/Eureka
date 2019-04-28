@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      name: config
+      profile: test
+      uri: http://localhost:8888/
+      label: master
+
+
+  application:
+    name: config-client
+
+server:
+  port: 8889
